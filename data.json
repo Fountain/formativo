@@ -1,0 +1,11 @@
+{
+  "1": {
+    "prompt": "What is the best color?",
+    "choices": [
+      { "body": "red", "correct": true },
+      { "body": "blue", "correct": false },
+      { "body": "green", "correct": false }
+    ],
+    "type": "single-choice"
+  }
+}
