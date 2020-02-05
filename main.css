@@ -14,10 +14,11 @@ header {
 
 h2 {
   font-size: 1.35em;
+  margin-top: 0;
 }
 
 main {
-  padding: 0.25em 1em 0.5em 1em;
+  padding: 1em 1em 0.5em 1em;
   background-color: whitesmoke;
 }
 
@@ -45,4 +46,13 @@ input {
 
 label {
   display: block;
+}
+#response {
+  margin-left: 1em;
+}
+#question h2 {
+}
+
+.incorrect {
+  color: rosybrown;
 }
