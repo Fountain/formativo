@@ -18,7 +18,7 @@ h2 {
 }
 
 main {
-  padding: 1em 1em 0.5em 1em;
+  padding: 1em;
   background-color: whitesmoke;
 }
 
@@ -49,8 +49,6 @@ label {
 }
 #response {
   margin-left: 1em;
-}
-#question h2 {
 }
 
 .incorrect {
