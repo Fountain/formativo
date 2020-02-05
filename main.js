@@ -1,10 +1,16 @@
 const data = [
   {
-    prompt: "What is the best color?",
+    prompt: "Which of these is a valid array?",
     choices: [
-      { body: "red", correct: true },
-      { body: "blue", correct: false },
-      { body: "green", correct: false }
+      {
+        body: 'var myFavoriteDay = ["Monday", "Saturday", "Friday"];',
+        correct: true
+      },
+      {
+        body: 'var myFavoriteFruits = ["banana", "cherry", "mango",];',
+        correct: false
+      },
+      { body: 'var myFavoriteThings = ["banana", true, 35,];', correct: false }
     ],
     type: "single-choice"
   },
